@@ -8,3 +8,14 @@ To install the necessary packages, simply open cmd.exe and type "pip install tk 
 You can either run the program by using the command line or by running it using an IDE like Pycharm. To use the program via the command line (e.g. cmd.exe), navigate to the 
 folder where the "Python-Mini-Canvas-Drawing-App.py" script is located by typing "cd [Absolute Path to folder in which Python-Mini-Coin-Counter-Aruco-Detector-Image-Unwarper.py is located]". 
 After you've done that, type "Python-Mini-Coin-Counter-Aruco-Detector-Image-Unwarper.py". To pass an image to the program either select it via the file explorer by running the script as described. Alternatively you can provide an image path via the image_path command line argument or provide a path by changing the MISC_IMAGE_PATH_PARAMETER_PATH constant at the top of the code. You can now use the program to unwarp the image, detect coins in the image, gauge their values and detect an aruco marker.
+
+### Showcase
+
+<table>
+  <tr>
+    <td><kbd> <img src="Python-Mini-Canvas-Drawing-App Showcase 1.png" width="1000" /> </kbd></td>
+  </tr>
+    <tr>
+    <td><kbd> <img src="Python-Mini-Canvas-Drawing-App Showcase 2.png" width="1000" /> </kbd></td>
+  </tr>
+</table>
