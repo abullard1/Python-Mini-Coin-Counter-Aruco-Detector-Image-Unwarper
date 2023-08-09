@@ -13,9 +13,7 @@ After you've done that, type "**Python-Mini-Coin-Counter-Aruco-Detector-Image-Un
 
 <table>
   <tr>
-    <td><kbd> <img src="Python-Mini-Coin-Counter-Aruco-Detector-Image-Unwarper Showcase 1.png" width="1000" /> </kbd></td>
-  </tr>
-    <tr>
-    <td><kbd> <img src="Python-Mini-Coin-Counter-Aruco-Detector-Image-Unwarper Showcase 2.png" width="1000" /> </kbd></td>
+    <td><kbd> <img src="Python-Mini-Coin-Counter-Aruco-Detector-Image-Unwarper Showcase 1.png" width="500" /> </kbd></td>
+    <td><kbd> <img src="Python-Mini-Coin-Counter-Aruco-Detector-Image-Unwarper Showcase 2.png" width="500" /> </kbd></td>
   </tr>
 </table>
