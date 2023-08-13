@@ -288,19 +288,19 @@ class ComputerVision:
                                    param2=HOUGH_CIRCLES_CANNY_LOWER_THRESHOLD,
                                    minRadius=HOUGH_CIRCLES_MIN_RADIUS, maxRadius=HOUGH_CIRCLES_MAX_RADIUS)
 
-        # Check to see if there is any detection
+        # Checks to see if there is any detection
         if circles is not None:
-            # If there are some detections, convert radius and x,y(center) coordinates to integer
+            # If there are any detections, converts radius and x,y(center) coordinates to integer
             circles = np.round(circles[0, :]).astype("int")
         else:
             print("No coins detected.")
             return processed_output_image
 
         for (x, y, radius) in circles:
-            # Draw the circle
+            # Draws the circle
             cv2.circle(processed_output_image, (x, y), radius, CIRCLE_DISPLAY_OUTLINE_COLOR,
                        CIRCLE_DISPLAY_OUTLINE_THICKNESS)
-            # Draw the center of the circle
+            # Draws the center of the circle
             cv2.circle(processed_output_image, (x, y), CIRCLE_DISPLAY_CENTER_POINT_RADIUS,
                        CIRCLE_DISPLAY_CENTER_POINT_LINE_COLOR,
                        CIRCLE_DISPLAY_CENTER_POINT_LINE_THICKNESS)
@@ -379,7 +379,7 @@ class ComputerVision:
         top_left_corner = aruco_marker_corner_coords[0]
         top_right_corner = aruco_marker_corner_coords[1]
 
-        # Calculate the euclidian distance between the top left and top right corner in px
+        # Calculates the euclidian distance between the top left and top right corner in px
         dist = np.linalg.norm(np.array(top_left_corner) - np.array(top_right_corner))
         print("Width of Marker in image: {} px".format(dist))
 
@@ -416,7 +416,7 @@ class ComputerVision:
             print("Error: Could not open webcam.")
             return None
 
-        # Capture a single frame
+        # Captures a single frame
         ret, frame = cap.read()
 
         # Releases the webcam
